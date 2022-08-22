@@ -1,0 +1,44 @@
+.box {
+  width: 100px;
+  height: 100px;
+  background-color: #eee;
+  border: 1px solid #393e46;
+  cursor: pointer;
+  font-size: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #00bcf0;
+  font-weight: 600;
+}
+.row {
+  display: flex;
+}
+#winningText {
+  max-width: 73%;
+  position: relative;
+  top: -40px;
+  font-size: 24px;
+  letter-spacing: 2px;
+  color: #f81c1c;
+  background-color: #eee;
+  padding: 10px 40px;
+  font-weight: bold;
+  border-radius: 10px;
+}
+.btnRepeat {
+  width: 82%;
+  padding: 10px 20px;
+  color: white;
+  background: green;
+  border: 1px solid white;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-bottom: 32px;
+}
+.d-none {
+  display: none;
+}
+.d-block {
+  display: block;
+}
